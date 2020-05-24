@@ -3,6 +3,7 @@ package io.fabric8
 
 @Grab(group='io.fabric8', module='openshift-client', version='2.2.13')
 @Grab(group='io.fabric8', module='kubernetes-client', version='2.2.13')
+@Grab(group='io.fabric8', module='kubernetes-api', version='2.2.209')
 import com.cloudbees.groovy.cps.NonCPS
 import io.fabric8.kubernetes.client.DefaultKubernetesClient
 import io.fabric8.kubernetes.client.KubernetesClient
